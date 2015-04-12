@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<servlet>
+		<servlet-name>registMember</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.registMember</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registMember</servlet-name>
+		<url-pattern>/registMember</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>RetrieveMember</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.RetrieveMemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RetrieveMember</servlet-name>
+		<url-pattern>/RetrieveMemberServlet</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ReadMemberServlet</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.ReadMemberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadMemberServlet</servlet-name>
+		<url-pattern>/ReadMemberServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>deleteTeam</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.deleteTeam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteTeam</servlet-name>
+		<url-pattern>/deleteTeam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>updateMember</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.updateMember</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateMember</servlet-name>
+		<url-pattern>/updateMember</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>updateTeam</servlet-name>
+		<servlet-class>kr.ac.shinhanaclass.updateTeam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateTeam</servlet-name>
+		<url-pattern>/updateTeam</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app> 
